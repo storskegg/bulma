@@ -1,13 +1,20 @@
 {
-  "name": "bulma",
+  "name": "sk-bulma",
   "version": "0.3.2",
   "homepage": "http://bulma.io",
   "author": "Jeremy Thomas <bbxdesign@gmail.com> (http://jgthms.com)",
-  "description": "Modern CSS framework based on Flexbox",
+  "contributors": [
+    {
+      "name": "Liam Conrad",
+      "email": "liam@storskegg.org"
+    }
+  ],
+  "description": "Modern CSS framework based on Flexbox forked from Jeremy Thomas' Bulma",
   "main": "bulma.sass",
+  "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jgthms/bulma.git"
+    "url": "git+https://github.com/storskegg/bulma.git"
   },
   "license": "MIT",
   "keywords": [
@@ -18,7 +25,7 @@
     "framework"
   ],
   "bugs": {
-    "url": "https://github.com/jgthms/bulma/issues"
+    "url": "https://github.com/storskegg/bulma/issues"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.3",
